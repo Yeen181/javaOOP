@@ -6,6 +6,5 @@ public class Program {
         ps.InThongTin();
         ps.Cong(new PhanSo(2,4)).InThongTin();
         ps.Tru(new PhanSo(1,8)).InThongTin();
-
     }
 }
