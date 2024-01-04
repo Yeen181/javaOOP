@@ -43,7 +43,9 @@ public class PhanSo {
     }
     public PhanSo(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("nhap tu so: ");
         setTuSo(sc.nextInt());
+        System.out.println("nhap mau so: ");
         setMauSo(sc.nextInt());
     }
     public void InThongTin(){
