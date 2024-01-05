@@ -88,7 +88,7 @@ public class DonDatHang {
         sc.nextLine();
         ghiChu = sc.nextLine();
     }
-    public void InthongTin(){
+    public void inthongTin(){
         System.out.println("Don hang co so "+ maSoDon+ " dat ngay "+ ngayDat + " co tong tien la "+ getThanhTien());
     }
 }
