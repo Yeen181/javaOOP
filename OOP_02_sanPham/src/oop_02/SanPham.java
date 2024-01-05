@@ -47,7 +47,7 @@ public class SanPham {
         this.loaiSanPham = loaiSanPham;
         this.laSanPhamMoi = laSanPhamMoi;
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println("San pham "+ tenSanPham+" co ma san pham "+ maSanPham+", thuoc loai "+ loaiSanPham +","+ laSanPhamMoi + " la san pham moi");
     }
 }

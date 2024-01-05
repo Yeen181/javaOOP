@@ -70,7 +70,7 @@ public class LopHoc {
         System.out.println("nhap gvcn: ");
         gvcn = sc.nextLine();
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println("Lop " + tenLop + " co ma la " + maLop + " o "+ diaChi + "." +
                 "Lop co "+ siSo + " hoc sinh va co "+ gvcn + " la giao vien chu nhiem");
     }

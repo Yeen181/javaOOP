@@ -34,7 +34,7 @@ public class SoPhuc {
         phanAo = sc.nextDouble();
     }
 
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println(phanThuc + phanAo);
     }
 }

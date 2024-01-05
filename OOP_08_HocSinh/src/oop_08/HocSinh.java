@@ -90,7 +90,7 @@ public class HocSinh {
         this.diemVan = diemVan;
         this.diemAnh = diemAnh;
     }
-    public void InThongTin(){
+    public void inThongTin(){
         setDiemTrungBinh();
         System.out.println(hoTen + " hoc lop "+ lop +", co diem trung binh la "+ diemTrungBinh);
     }

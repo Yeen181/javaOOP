@@ -38,7 +38,7 @@ public class Nguoi {
 
     public Nguoi(int maSo, String ht, LocalDate ngaySinh) {
         this.maSo = maSo;
-        this.hoTen = TaoDuLieuHoTen(ht);
+        this.hoTen = taoDuLieuHoTen(ht);
         this.ngaySinh = ngaySinh;
     }
 
@@ -66,7 +66,7 @@ public class Nguoi {
             else dem += arr[i];
         }
     }
-    public String TaoDuLieuHoTen(String ht){
+    public String taoDuLieuHoTen(String ht){
         if(hoTen == null || ht.compareTo(hoTen) != 0) return ht;
         return hoTen;
     }
@@ -76,11 +76,11 @@ public class Nguoi {
         maSo = sc.nextInt();
         sc.nextLine();
         System.out.println("nhap ho ten: ");
-        hoTen = TaoDuLieuHoTen(sc.nextLine());
+        hoTen = taoDuLieuHoTen(sc.nextLine());
         System.out.println("nhap ngay sinh: ");
         ngaySinh = LocalDate.parse(sc.nextLine());
     }
-    public void InThongTin(){
+    public void inThongTin(){
 
         System.out.println(maSo+" co ten la " + hoTen + " sinh ngay " + ngaySinh);
     }

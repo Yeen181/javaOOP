@@ -27,12 +27,12 @@ public class SoThuc {
         System.out.println("nhap gia tri: ");
         giaTri = sc.nextDouble();
     }
-    public static SoThuc TimMax(SoThuc a, SoThuc b, SoThuc c){
+    public static SoThuc timMax(SoThuc a, SoThuc b, SoThuc c){
         if (a.getGiaTri() >= b.getGiaTri() && a.getGiaTri() >= c.getGiaTri()) return a;
         if (b.getGiaTri() >= a.getGiaTri() && b.getGiaTri() >= c.getGiaTri()) return b;
         return c;
     }
-    public double TinhCanBacN(int n){
+    public double tinhCanBacN(int n){
         return Math.pow(giaTri, 1./n);
     }
 }

@@ -62,10 +62,10 @@ public class SoNguyen {
     public SoNguyen(){
         setGiaTri(nhapSo());
     }
-    public void Cong(SoNguyen n){
+    public void cong(SoNguyen n){
         System.out.println(giaTri + n.getGiaTri());
     }
-    public void InThongTin(){
+    public void inThongTin(){
 
         System.out.println("so " +giaTri+ laSoChan + " la so chan, " + laSoNguyen+" la so nguyen to,"+ laSoDoiXung + " la so doi xung");
     }

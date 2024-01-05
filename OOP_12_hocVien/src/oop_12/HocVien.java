@@ -79,7 +79,7 @@ public class HocVien {
         ngaySinh = LocalDate.parse(sc.nextLine());
         hocPhi = sc.nextDouble();
     }
-    public static List<HocVien> TimKiemHocVien(List<HocVien> lst){
+    public static List<HocVien> timKiemHocVien(List<HocVien> lst){
         Scanner sc = new Scanner(System.in);
         System.out.println("nhap ten can tim");
         String str = sc.nextLine();
@@ -89,7 +89,7 @@ public class HocVien {
         }
         return list;
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println(maHocVien + " co ten "+ hoTen+ " co email " + getEmail() + " hoc phi "+ getHocPhi());
     }
 }

@@ -62,7 +62,7 @@ public class Sach {
         System.out.println("nhap tac gia");
         tacGia = sc.nextLine();
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println(tenSach + " la sach " + theLoaiSach + " co gia "+ gia+ " xuat ban ngay "+ ngayXuatBan + " viet boi " + tacGia);
     }
 }

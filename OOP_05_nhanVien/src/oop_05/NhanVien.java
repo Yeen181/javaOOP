@@ -62,7 +62,7 @@ public class NhanVien {
         System.out.println("nhap so dien thoai");
         soDienThoai = sc.nextLine();
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println("Nhan vien " + hoVaTen + " thuoc phong ban " + phongBan + " co so dien thoai la " + soDienThoai);
     }
 }

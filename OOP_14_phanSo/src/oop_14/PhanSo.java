@@ -35,10 +35,10 @@ public class PhanSo {
         }
         return new PhanSo(tuSo/tu, mauSo/mau);
     }
-    public PhanSo Cong(PhanSo ps){
+    public PhanSo cong(PhanSo ps){
         return (new PhanSo(tuSo*ps.getMauSo() + ps.getTuSo()*mauSo, mauSo*ps.getMauSo())).ToiGian();
     }
-    public PhanSo Tru(PhanSo ps){
+    public PhanSo tru(PhanSo ps){
         return (new PhanSo(tuSo*ps.getMauSo() - ps.getTuSo()*mauSo, mauSo*ps.getMauSo())).ToiGian();
     }
     public PhanSo(){
@@ -48,7 +48,7 @@ public class PhanSo {
         System.out.println("nhap mau so: ");
         setMauSo(sc.nextInt());
     }
-    public void InThongTin(){
+    public void inThongTin(){
         System.out.println(tuSo +"/"+mauSo);
     }
 }
